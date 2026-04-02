@@ -17,3 +17,4 @@ rag_web_stdout*.log
 rag_web_stderr*.log
 
 knowledge_base/*.zip
+transformer_scripts.py

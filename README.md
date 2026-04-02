@@ -25,6 +25,7 @@
 - `stats_rag_web.py`: Web 演示界面
 - `knowledge_base/tsinghua_stats`: 清华统计讲义 PDF
 - `RAG_USAGE.md`: 更完整的使用说明
+- `RAG_ARCHITECTURE.md`: 项目搭建过程与原理解析
 - `.env.example`: 环境变量模板
 
 ## 快速开始
