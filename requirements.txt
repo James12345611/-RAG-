@@ -1,0 +1,9 @@
+aiohttp
+chromadb
+httpx
+latex2mathml
+markdown-it-py
+openai
+pypdf
+python-dotenv
+requests
