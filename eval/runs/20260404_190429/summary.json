@@ -1,0 +1,76 @@
+{
+  "run_time": "2026-04-04T19:04:46",
+  "dataset_path": "E:\\RAG_projects\\eval\\eval_set_template.jsonl",
+  "output_dir": "E:\\RAG_projects\\eval\\runs\\20260404_190429",
+  "models": {
+    "generation_model": "Qwen/Qwen3-14B",
+    "embedding_model": "Qwen/Qwen3-Embedding-4B",
+    "rerank_model": "Qwen/Qwen3-Reranker-4B",
+    "judge_model": "zai-org/GLM-4.6"
+  },
+  "overall": {
+    "sample_count": 1,
+    "answerable_count": 1,
+    "refusal_count": 0,
+    "hit_at_3": 1.0,
+    "mrr_at_5": 1.0,
+    "evidence_recall_at_5": 1.0,
+    "answer_accuracy": 0.75,
+    "key_point_coverage": 1.0,
+    "faithfulness": 1.0,
+    "refusal_precision": null,
+    "refusal_recall": null,
+    "refusal_f1": 0.0,
+    "over_refusal_rate": 0.0,
+    "refusal_appropriate_rate": null,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0
+  },
+  "breakdowns": {
+    "question_type": {
+      "definition": {
+        "sample_count": 1,
+        "answerable_count": 1,
+        "refusal_count": 0,
+        "hit_at_3": 1.0,
+        "mrr_at_5": 1.0,
+        "evidence_recall_at_5": 1.0,
+        "answer_accuracy": 0.75,
+        "key_point_coverage": 1.0,
+        "faithfulness": 1.0,
+        "refusal_precision": null,
+        "refusal_recall": null,
+        "refusal_f1": 0.0,
+        "over_refusal_rate": 0.0,
+        "refusal_appropriate_rate": null,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "difficulty": {
+      "easy": {
+        "sample_count": 1,
+        "answerable_count": 1,
+        "refusal_count": 0,
+        "hit_at_3": 1.0,
+        "mrr_at_5": 1.0,
+        "evidence_recall_at_5": 1.0,
+        "answer_accuracy": 0.75,
+        "key_point_coverage": 1.0,
+        "faithfulness": 1.0,
+        "refusal_precision": null,
+        "refusal_recall": null,
+        "refusal_f1": 0.0,
+        "over_refusal_rate": 0.0,
+        "refusal_appropriate_rate": null,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    }
+  },
+  "completed_samples": 1,
+  "failed_samples": 0
+}
